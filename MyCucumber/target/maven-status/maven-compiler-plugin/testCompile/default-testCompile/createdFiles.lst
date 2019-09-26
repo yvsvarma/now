@@ -1,2 +1,2 @@
-cucumberOptions/TestRunner.class
 stepDefinitions/StepDefinition.class
+cucumberOptions/TestRunner.class
