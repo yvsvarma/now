@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(  
 	    features = "src/test/java/features",
 	    glue="stepDefinitions",tags="@smokeTest",monochrome=true,
-	    plugin= {"pretty","html:target/cucumber","json:target/cucumber.json","junit:target/cukes.xml"})
+	    plugin= {"html:target/cucumber","json:target/cucumber.json","junit:target/cukes.xml"})
 public class TestRunner {
 
 }
