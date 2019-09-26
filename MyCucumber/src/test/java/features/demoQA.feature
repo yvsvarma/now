@@ -30,7 +30,7 @@ When User enters form with following details
 Then Click button "submit"
 And Target page found
 
-@smokeTest
+@functionalTest
 Scenario Outline: HTML Contact form3
 Given User is on HTML Contact form
 When User enters form with <fname> and <lname> and <country> details
