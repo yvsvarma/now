@@ -25,7 +25,7 @@ public class StepDefinition {
 	@Given("^opened selected browser$")
     public void opened_selected_browser() throws Throwable {
 		//System.setProperty(“chromedriver”,”Path of the GeckoDriver file”);
-		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver2");
 		driver=new ChromeDriver();
 		System.out.println("Chrome opened");
     }

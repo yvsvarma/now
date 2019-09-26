@@ -14,7 +14,7 @@ public class Hooks {
 	public void beforeSmoke() {
 		System.out.println("Before Smoke");
 		
-		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver2");
 		driver=new ChromeDriver();
 		System.out.println("Chrome opened");
     	driver.get("https://demoqa.com");
