@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name="testcases.tests" >
+        <methods>
+        <include name="tc1_sortable"/>
+        
+      </methods>
+           </class>
+       
+    </classes>
+  </test>
+ 
+</suite>
